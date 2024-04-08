@@ -1,0 +1,65 @@
+#brand{
+    width: 300px;
+
+}
+
+#logo{
+    width:10%;
+    max-width: 80px;
+    min-width: 30px;
+}
+
+.centrado{
+    place-items: center;
+    display: grid;
+    margin: auto;
+}
+
+.simbol{
+    width:80%;
+    max-width: 80px;
+    min-width: 30px;
+    
+}
+
+.titulo{
+    font-size: xx-large;
+    color: #7216f4;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subtitulo{
+    font-weight: 600;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto{
+    color: black;
+    font-weight: 40;
+    font-size:medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fondo{
+    border-radius: 0.5rem;
+    background-color: rgba(211, 211, 211, 0.34);
+}
+
+footer{
+    background-color: black;
+}
+
+.wrapper{
+ display: flex;
+ overflow: auto;   
+}
+.wrapper .item{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 3px;
+}
+.wrapper ::-webkit-scrollbar{
+    width: 0;
+}
